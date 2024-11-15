@@ -37,10 +37,20 @@ p{
 
 header{
   display:grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-template-areas: "logo navigation";
+  grid-template-columns: repeat(３,1fr);
+  grid-template-areas: "logo navigation language";
 
 
+}
+
+.language{
+  grid-area: language;
+  display: flex;
+  margin-right: 20px;
+}
+
+.language a{
+  margin-right: 20px;
 }
 
 nav{
@@ -300,5 +310,6 @@ select{
   color: #fff;
 
 }
+
 
 
