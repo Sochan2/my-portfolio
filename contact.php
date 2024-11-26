@@ -51,7 +51,7 @@ session_start();
         <input type="text" id="name" name="name" placeholder="Enter your name" required>
       </div>
       <div class="space">
-        <label for="email">Your Email Address</label>
+        <label for="email">Your Email</label>
         <input type="email" id="email" name="email" placeholder="Enter your email" required>
       </div>
 
@@ -77,7 +77,7 @@ session_start();
         <!-- Type of Project -->
         <div class="project_budget">
           <div class="space">
-            <label for="project-type">What is your Project</label>
+            <label for="project-type">your Project</label>
             <select id="project-type" name="project_type" required>
                 <option value="website-development">Website Development</option>
                 <option value="SEO">SEO</option>
@@ -154,4 +154,8 @@ session_start();
 </ul>
      
   </footer>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
   

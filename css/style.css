@@ -271,6 +271,10 @@ input{
  max-width: 100%;
 }
 
+input, select, textarea{
+  border: 1px solid #ccc;
+}
+
 textarea{
   width:100%;
   margin-top: 20px;
@@ -279,6 +283,12 @@ textarea{
 form{
   width:50%;
   margin:60px;
+}
+
+
+
+#project-type, #budget{
+  margin-top: 10px;
 }
 
 .project_budget{
@@ -299,11 +309,11 @@ select{
 }
 
 .submit{
-  width: 100%; /* フォーム全体の中央にするために100%の幅を指定 */
+  width: 100%; 
   display: flex;
-  justify-content: center; /* 水平方向に中央寄せ */
-  align-items: center; /* 垂直方向も中央寄せ（必要に応じて） */
-  margin-top: 20px; /* フォームの他の要素とスペースを作る */
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 20px; 
 }
 
 .submit button{
