@@ -7,3 +7,23 @@ window.addEventListener('scroll',()=>{
     image.classList.add('fade-in');
   }
 });
+
+//hamberger-menu
+const hamberger = document.querySelector(".hamberger");
+const navMenu = document.querySelector(".nav-menu");
+
+function activeHumberger(){
+hamberger.classList.toggle("active");
+navMenu.classList.toggle("active");
+
+}
+
+hamberger.addEventListener("click", activeHumberger);
+
+function deleteNav(){
+hamberger.classList.remove("active");
+navMenu.classList.remove("active");
+
+}
+
+document.querySelectorAll(".nav-link").forEach(n=>n.addEventLister("click",deleteNav));
